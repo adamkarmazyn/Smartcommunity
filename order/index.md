@@ -12,6 +12,7 @@ Przy każdym wdrożeniu system jest spersonalizowany do konkretnych wymagań jed
 -	Konsultacji w trakcie prac nad projektem
 -	Testowania wypracowanych rozwiązań
 
+
 Skontaktuj się z nami za pomocą formularza
 
 <form method="POST" action="http://formspree.io/adam.karmazyn@oke.pl">
