@@ -16,6 +16,8 @@ Przy każdym wdrożeniu system jest spersonalizowany do konkretnych wymagań jed
 Skontaktuj się z nami za pomocą formularza
 
 <form method="POST" action="http://formspree.io/adam.karmazyn@oke.pl">
+  <input type="hidden" name="_subject" value="Smartcity submition" />
+  <input type="hidden" name="_next" value="{{ site.url | absolute_url}}" />
   <input type="email" name="email" placeholder="Your email">
   <textarea name="message" placeholder="Your message"></textarea>
   <button type="submit">Send</button>
