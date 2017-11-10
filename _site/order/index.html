@@ -21,9 +21,10 @@
 <link rel="stylesheet" href="/Smartcommunity/assets/css/animate.min.css">
 <link rel="stylesheet" href="/Smartcommunity/assets/css/syntax.css">
 <link rel="stylesheet" href="/Smartcommunity/assets/css/main.css">
+<link rel="stylesheet" href="/Smartcommunity/assets/css/form.css">
 
 <!-- Google fonts -->
-<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic&subset=latin-ext">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic&subset=latin-ext">
 
 
 
@@ -37,22 +38,22 @@
       <header>
       
         <div>
-          <a href="" id="logo" title="smartcommunity"
+          <a href="/Smartcommunity" id="logo" title="smartcommunity"
              style="background-image: url(/Smartcommunity/assets/images/logo.png);"></a>
         </div>
 
         <nav id="main-navigation">
   
   
-  <a href="/advantages" title="Korzyści dla gminy">Korzyści dla gminy</a>
+  <a href="/Smartcommunity/advantages" title="Korzyści dla gminy">Korzyści dla gminy</a>
   
   
   
-  <a href="/order" title="Jak zamówić" class="current">Jak zamówić</a>
+  <a href="/Smartcommunity/order" title="Jak zamówić" class="current">Jak zamówić</a>
   
   
   
-  <a href="/reviews" title="Rekomendacje">Rekomendacje</a>
+  <a href="/Smartcommunity/reviews" title="Rekomendacje">Rekomendacje</a>
   
   
 </nav>
@@ -72,7 +73,13 @@
   <li>Testowania wypracowanych rozwiązań</li>
 </ul>
 
-<p>Formularz kontaktowy</p>
+<p>Skontaktuj się z nami za pomocą formularza</p>
+
+<form method="POST" action="http://formspree.io/adam.karmazyn@oke.pl">
+  <input type="email" name="email" placeholder="Your email" />
+  <textarea name="message" placeholder="Your message"></textarea>
+  <button type="submit">Send</button>
+</form>
 
 </article>
 
