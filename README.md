@@ -1,4 +1,4 @@
-
+to work on your localhost use jekyll serve --baseurl ''
 
 
 
@@ -9,4 +9,4 @@ https://www.sitepoint.com/jekyll-plugins-github/
 because brume theme is not on jekyll themes list you need to
 jekyll build on master branch, then copy all files from site directory (master branch) to root (gh-pages branch)
 
-to work on your localhost use jekyll serve --baseurl ''
+
