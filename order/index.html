@@ -10,6 +10,9 @@
 <!-- Enable responsiveness on mobile devices-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
+<!-- sending reffer -->
+<meta name="referrer" content="origin">
+
 <!-- title -->
 <title>Jak zamówić &middot; smartcommunity</title>
 
@@ -76,6 +79,8 @@
 <p>Skontaktuj się z nami za pomocą formularza</p>
 
 <form method="POST" action="http://formspree.io/adam.karmazyn@oke.pl">
+  <input type="hidden" name="_subject" value="Smartcity submition" />
+  <input type="hidden" name="_next" value="/Smartcommunity" />
   <input type="email" name="email" placeholder="Your email" />
   <textarea name="message" placeholder="Your message"></textarea>
   <button type="submit">Send</button>
